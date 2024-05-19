@@ -36,11 +36,12 @@ section {
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    border-radius: 50%; /* Make the image circular */
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the image */
+    object-fit: cover; /* Ensure the image covers the entire area */
 }
 
 .project {
