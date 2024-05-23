@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Braeden Fong</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap">
 </head>
 <body>
     <header>
@@ -12,26 +13,69 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h2>Hobbies</h2>
-        <p>Here are some of my hobbies:</p>
-        <ul>
-            <li>Playing esports tournaments with friends, especially Smash Bros.</li>
-            <li>Developing personal projects like financial trackers.</li>
-            <li>Analyzing data for various insights.</li>
-            <li>Running and maintaining good cardio health.</li>
-        </ul>
-    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Braeden Fong" class="profile-image">
+
+	<p><span class="big-text typewriter">Hello! I'm Braeden Fong.</span></p>
+ <p>Hello! I'm Braeden Fong, and I'm studying a combined major in Business and Computer Science (BUCS) at UBC Sauder. In the coming future, I am hoping to work somewhere in the tech industry.</p>
+<p>I have experience as a Teaching Assistant for CPSC 203, a Python data structures and algorithms class. In this role, I ran lab sessions for over 30 students and helped them understand complex programming concepts which improved my ability to communicate technical information clearly. </p>
+<p>In addition, I am also a certified lifeguard and formerly worked at a pool for the City of Burnaby until May 2020. As a lifeguard, I learned strong leadership and communication skills.
+
+ </p>
+
+
+<section id="hobbies">
+    <h2>Hobbies</h2>
+
+    <div class="hobby-description">
+        <h3>Playing in Smash Bros Tournaments</h3>
+        <p>I enjoy competing in Smash Bros tournaments with my friends. Below is a photo our UBC Smash team, and also a video of me playing.</p>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="photos/cachedImage.png" alt="Smash Bros 1" class="active">
+                <video src="photos/smashie.mp4" controls></video>
+            </div>
+            <button class="carousel-prev">&lt;</button>
+            <button class="carousel-next">&gt;</button>
+        </div>
+    </div>
+
+    <div class="hobby-description">
+        <h3>Travelling</h3>
+        <p>Travelling has brought me some of the best memories of my life. In May 2023, I went to Japan with two of my friends, here are some of those pictures!</p>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="photos/travel.jpg" alt="Travel 1">
+                <img src="photos/travel2.png" alt="Travel 2">
+                <img src="photos/travel3.png" alt="Travel 3">
+            </div>
+            <button class="carousel-prev">&lt;</button>
+            <button class="carousel-next">&gt;</button>
+        </div>
+    </div>
+
+    <div class="hobby-description">
+        <h3>Running</h3>
+        <p>Running helps me maintain my fitness and clear my mind. I enjoy running to explore, but also to push myself mentally and physically.</p>
+        <p>Current 1000m PR: 3:22</p>
+        <p>Current 5000m PR: 23:31</p>
+        <p>Current 400m PR: 1:05</p>
+        <p>Updated May 23rd 2024</p>
+    </div>
+</section>
+
 
     <footer>
-        <p>&copy; 2024 Braeden Fong. All rights reserved.</p>
+        <p>&copy; 2024 Braeden Fong.</p>
     </footer>
 
     <script src="script.js"></script>
