@@ -5,7 +5,7 @@ html, body {
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 400;
     background: linear-gradient(135deg, #f3f3f3, #e2e2e2);
     background-size: 200% 200%;
@@ -58,15 +58,15 @@ section {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 900px;
     flex: 1;
     font-size: 1.1rem;
     line-height: 1.6;
 }
 
 .profile-image {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -95,7 +95,7 @@ footer {
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     margin: 2rem auto;
     overflow: hidden;
     border-radius: 8px;
