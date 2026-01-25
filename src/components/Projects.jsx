@@ -2,6 +2,8 @@ import ProjectCard from './ProjectCard';
 import './Projects.css';
 
 function Projects() {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const projects = [
         {
             title: "Financial Tracker (Java)",
@@ -17,7 +19,7 @@ function Projects() {
             title: "Image Flooder (C++)",
             description: "Developed advanced algorithms in C++ to perform color-based flood fill operations, enhancing digital images with custom color patterns. Demonstrates the ability to design, build, and test software tools that improve user experiences through precise image processing.",
             details: "The first one (blue and green) uses Breadth First Search to fill the image, and the second one (red) uses Depth First Search.",
-            images: ["/braedenfong_stripe_pattern.gif", "/dfsstripe.gif"],
+            images: [`${baseUrl}braedenfong_stripe_pattern.gif`, `${baseUrl}dfsstripe.gif`],
             tech: ["C++", "BFS", "DFS", "Algorithms"]
         }
     ];

@@ -25,7 +25,7 @@ function Hero() {
                 <div className="hero-image-container">
                     <div className="hero-image-glow"></div>
                     <img
-                        src="/profile.jpg"
+                        src={`${import.meta.env.BASE_URL}profile.jpg`}
                         alt="Braeden Fong"
                         className="hero-image"
                     />

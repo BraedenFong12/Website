@@ -2,15 +2,17 @@ import Carousel from './Carousel';
 import './Hobbies.css';
 
 function Hobbies() {
+    const baseUrl = import.meta.env.BASE_URL;
+
     const smashItems = [
-        { type: 'image', src: '/cachedImage.PNG', alt: 'UBC Smash Bros Team' },
-        { type: 'video', src: '/smashie.mp4', alt: 'Smash Bros Gameplay' }
+        { type: 'image', src: `${baseUrl}cachedImage.PNG`, alt: 'UBC Smash Bros Team' },
+        { type: 'video', src: `${baseUrl}smashie.mp4`, alt: 'Smash Bros Gameplay' }
     ];
 
     const travelItems = [
-        { type: 'image', src: '/travel.jpg', alt: 'Japan Travel 1' },
-        { type: 'image', src: '/travel2.png', alt: 'Japan Travel 2' },
-        { type: 'image', src: '/travel3.png', alt: 'Japan Travel 3' }
+        { type: 'image', src: `${baseUrl}travel.jpg`, alt: 'Japan Travel 1' },
+        { type: 'image', src: `${baseUrl}travel2.png`, alt: 'Japan Travel 2' },
+        { type: 'image', src: `${baseUrl}travel3.png`, alt: 'Japan Travel 3' }
     ];
 
     return (
