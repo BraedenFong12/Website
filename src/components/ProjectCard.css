@@ -1,0 +1,38 @@
+.project-card {
+    padding: var(--space-lg);
+    transition: all var(--transition-normal);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.project-content {
+    margin-bottom: var(--space-md);
+}
+
+.project-card h3 {
+    margin-bottom: var(--space-sm);
+    color: var(--text-primary);
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.project-card p {
+    margin-bottom: var(--space-sm);
+}
+
+.project-details {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        padding: var(--space-md);
+    }
+}
